@@ -1,0 +1,37 @@
+input {
+  background-color: aqua;
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 10px;
+  color: darkolivegreen;
+}
+
+input:active {
+  border-radius: 15px;
+  color: greenyellow;
+  background-color: transparent;
+  border: solid 2px black;
+}
+
+.solve-input {
+  width: 260px;
+  font-size: medium;
+  border-radius: 10px;
+  background-color: blue;
+  color: aliceblue;
+}
+.solve-input::placeholder {
+  color: aliceblue;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+}
+
+form {
+  margin-top: 100px;
+}
