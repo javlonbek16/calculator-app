@@ -6,6 +6,7 @@ input {
   margin: 5px;
   border-radius: 10px;
   color: darkolivegreen;
+  cursor: pointer;
 }
 
 input:active {
@@ -32,6 +33,8 @@ body {
   background-color: teal;
 }
 
-form {
+ form {
   margin-top: 100px;
+  background-color: rgb(2, 2, 12);
+  border-radius: 10px;
 }
